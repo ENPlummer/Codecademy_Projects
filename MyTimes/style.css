@@ -1,0 +1,164 @@
+
+/* Universal Styles */
+
+body {
+	margin: 0;
+	font-family: "Georgia" serif;
+	font-size: 17px;
+	color: black
+}
+
+a {
+	color: black;
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 30;
+	font-weight: bold;
+}
+
+nav span {
+	disply: inline-block;
+	padding: 20px 10px;
+}
+
+
+
+/* Universal Styles - News Stories */
+
+.stories {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 17px;
+}
+
+.stories .text-content {
+	height: 250px;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.narrative {
+	margin-top: 16px;
+}
+
+.image-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+/* Header */
+
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid black;
+	background-color: white;
+	font-family: "verdana", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding-left: 30px;
+}
+
+.logo img {
+	width: 100px;
+	height: 75px;
+	margin-right: 15px;
+}
+
+.logo span {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: MediumAquamarine;
+	align-items: center;
+	padding-left: 50px;
+}
+
+header nav {
+	padding-right: 40px;
+}
+
+/* Main content Container */
+
+.content {
+	display: flex;
+	width: 1232px;
+	margin: 0 auto 78px auto;
+	padding-top: 116px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	margin-right: 32px;
+}
+
+/* First News Column */
+
+.column.large {
+	width: 600px;
+}
+
+.lead-story .image-content {
+	background-image: url("./Images/img-story-main.png");
+	width: 600px;
+	margin-top: 0;
+	text-align: left;
+	font-size: 40px;
+}
+
+.lead-story .image-content span {
+	margin-left: 20px;
+}
+
+
+.lead-story .narrative {
+	max-width: 600px;
+}
+.fall-cancelled.image-content {
+	background-image: url("./Images/Autumn_Story.png");
+}
+
+.pop-culture.image-content {
+	background-image: url("./Images/Hipster_Cameraman.png");
+}
+
+
+/* Second News Column */
+
+.column.medium {
+	width: 300px;
+}
+
+.cat-ceo.image-content {
+	background-image: url("./Images/Cat.png");
+}
+.column.small {
+	width: 240px;
+}
+
+
